@@ -89,3 +89,31 @@ Target Date: 2025-10-15
 📌 Suggested Trading Signal: HOLD ⏸️
 
 ```
+
+## 🧱 System Architecture
+
+```bash
+
+[ Yahoo Finance Data ]
+          │
+          ▼
+ [ Technical Indicator Builder ]
+          │
+          ▼
+ [ Preprocessing (Scaling + Sequences) ]
+          │
+          ▼
+ [ Model Training ]
+   ├─ Regression LSTM
+   ├─ Multi-step LSTM
+   ├─ Trend Classifier
+   └─ Signal Generator
+          │
+          ▼
+ [ Evaluation + Visualization ]
+          │
+          ▼
+ [ User Prediction CLI + Graph Output ]
+
+
+---
