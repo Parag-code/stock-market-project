@@ -68,3 +68,24 @@ It’s designed for analysts, investors, and developers who want a smart AI tool
 | `Boll_High`, `Boll_Low` | Bollinger Bands for volatility |
 
 ---
+
+## 🧠 User Input
+
+```bash
+📊 Enter Stock Symbol (e.g. AAPL, TSLA, RELIANCE.NS): AAPL
+📅 Enter Target Date (YYYY-MM-DD): 2025-10-15
+
+```
+
+## 📤 AI Output
+
+```bash
+🔮 Prediction Results
+Stock: AAPL
+Target Date: 2025-10-15
+📌 Predicted Price on 2025-10-15: 231.25
+📌 Predicted Next 5-Day Prices: [221.38 217.43 220.84 217.76 211.44]
+📌 Tomorrow’s Trend: 📉 DOWN
+📌 Suggested Trading Signal: HOLD ⏸️
+
+```
