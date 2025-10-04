@@ -49,3 +49,22 @@ It’s designed for analysts, investors, and developers who want a smart AI tool
 | 🧭 IDE / Notebook | VS Code, Jupyter |
 
 ---
+
+---
+
+## 🧮 Dataset & Features
+
+### **Data Source**
+- Yahoo Finance API (`yfinance`)
+- Example tickers: `AAPL`, `TSLA`, `RELIANCE.NS`, `GOOG`, `MSFT`
+
+### **Features Used**
+| Feature | Description |
+|----------|-------------|
+| `Open`, `High`, `Low`, `Close`, `Volume` | Core market data |
+| `SMA_20`, `EMA_20` | Short-term moving averages |
+| `RSI` | Relative Strength Index for momentum |
+| `MACD`, `MACD_Signal` | Trend strength indicators |
+| `Boll_High`, `Boll_Low` | Bollinger Bands for volatility |
+
+---
